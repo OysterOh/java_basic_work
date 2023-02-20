@@ -27,7 +27,7 @@ public class ScannerQuiz {
 		int age = sc.nextInt();
 		int year = 2024 - age;
 		
-		System.out.printf("이름: %s\n나이: %d세\n출생년도 %d 년", name, age, year);
+		System.out.printf("이름: %s씨\n나이: %d세\n출생년도 %d 년", name, age, year);
 		
 		sc.close();
 		
