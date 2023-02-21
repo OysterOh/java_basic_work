@@ -24,7 +24,7 @@ public class PrintExample {
 		/*
 		  포맷팅 서식 문자 종류
 		  %d: 부호가 있는 정수 데이터 (decimal)
-		  %f: 실수 데이터 (floating point)
+		  %f: 실수 데이터 (floation point)
 		  %s: 문자열 (String)
 		  
 		  #탈출 코드 (escape code) ->printf에만 동작하는건 아니다.

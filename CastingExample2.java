@@ -17,7 +17,7 @@ public class CastingExample2 {
 		
 		int i = 72;
 		char c = (char) i;
-		System.out.println("72의 문자값: " + c);
+		System.out.println("72의 문자값: " + c); //72의 문자값 : H
 		
 //		char < int     int ->char (DownCasting)
 //		자동X, 수동으로 변환

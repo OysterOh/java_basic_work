@@ -35,7 +35,7 @@ public class ScannerExample {
 	    //4. Scanner 객체를 반납
 	    //객체를 반납 -> Scanner를 메모리에서 해제.
 	    sc.close();
-	    
+	   
 	}
 
 }

@@ -25,10 +25,10 @@ public class ScannerQuiz {
 				
 		System.out.print("나이: ");
 		int age = sc.nextInt();
-		int year = 2024 - age;
+		int year = 2023 - age;
 		
 		System.out.printf("이름: %s씨\n나이: %d세\n출생년도 %d 년", name, age, year);
-		
+//		year를 2023-age로 바꿔도 된다.
 		sc.close();
 		
 	}

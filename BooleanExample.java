@@ -13,8 +13,6 @@ public class BooleanExample {
 //		boolean b6 = "논리형 타입"; (X)
 			
 		
-		
-		
-	}
+		}
 
 }
