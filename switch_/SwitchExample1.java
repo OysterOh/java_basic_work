@@ -3,7 +3,7 @@ package basic.switch_;
 import java.util.Scanner;
 /**
  * 230222 switch 조건문1
- * 기준 명확하면(case 적으면) 좋다.
+ * 기준 명확하면(case 적으면), 입력값이 명확하면 좋다.
  */
 public class SwitchExample1 {
 

@@ -29,12 +29,11 @@ public class WhileExample1 {
 		int total = 0;  //누적합을 기억해줄 변수(필수X)
 		
 		while(i <= 10) {  //end
-			total += i;  //복합연산자 +=
+			total += i;  //복합연산자 +=  total에 i를 계속 더해준다(1~10)
 			i++; //step
 		}
 		
 		System.out.println("1~10까지의 누적합: " + total);
-		
 		
 		
 	}

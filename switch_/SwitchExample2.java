@@ -32,8 +32,8 @@ public class SwitchExample2 {
 			System.out.println("당신의 학점은 D입니다.");
 			break;
 
-		default:
-			if(point > 100 || point < 0) {
+		default:              //case를 설정하지 않은 값들은 모두 default로 온다. print값의 차이를 두기 위해 if/else사용
+			if(point > 100 || point < 0) {      //점수로 나오지 않을 값들 (100초과의 정수, 음수)
 				System.out.println("점수를 잘못 입력하셨습니다.");
 			} else {
 				System.out.println("당신의 학점은 F입니다.");

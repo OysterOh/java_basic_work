@@ -28,7 +28,7 @@ public class ScannerQuiz {
 		int year = 2023 - age;
 		
 		System.out.printf("이름: %s씨\n나이: %d세\n출생년도 %d 년", name, age, year);
-//		year를 2023-age로 바꿔도 된다.
+//		year를 2023-age로 바꿔도 된다. 단, int year = 2023 - age;를 삭제시키고 값을 도출할 것
 		sc.close();
 		
 	}

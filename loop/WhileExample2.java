@@ -23,7 +23,7 @@ public class WhileExample2 {
 		int n = 48;
 		while(n <= 150) {
 			System.out.print(n + " ");
-			n += 8;
+			n += 8;          // n++;
 		}
 
 		System.out.println();            //그냥 줄바꿈
@@ -49,19 +49,20 @@ public class WhileExample2 {
 		c++;
 	}
 		 */
-
+        System.out.println();
+        
+        
 		//1~30000까지의 정수 중 258의 배수의 개수를 출력.
-		
-		System.out.println();
+				
 		
 		int k = 1;
-		int count1 = 0;
+		int count1 = 0;   //배수의 개수를 기억해줄 변수
 		
 		while(k <= 30000) {
 			if(k % 258 == 0) {
-				count1 = count1 + 1;  //count1 += 1;
+				 count1++;  //count1 += 1; count1 = count1 + 1;
 			}
-			k++;
+			k++;           //k +=1;  k = k + 1;
 		}
 		
 		System.out.println(count1);
@@ -72,16 +73,16 @@ public class WhileExample2 {
 		//1부터 1000까지 하나씩 올려가면서 1000이랑 나눠보세요
 		//그랬을 때 나누어 떨어지는 애가 약수다.
 		
-		int o = 1;
+		int x = 1;
 		int count2 = 0;
-		while(o <= 1000) {
-			if(1000 %o ==0) {
-				count2 = count2 + 1;    //count2 += 1;
+		while(x <= 1000) {
+			if(1000 % x == 0) {
+				count2++;    //count2 += 1; count1 = count1 + 1;
 			}
-			o++;
+			x++;             //x +=1;  x = x+1;
 		}
 		System.out.println(count2);
-		
+		System.out.printf("%d개\n" , count2);
 	}
 
 }

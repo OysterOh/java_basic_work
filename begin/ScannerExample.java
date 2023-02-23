@@ -20,7 +20,8 @@ public class ScannerExample {
 	     ex)
 	       nextInt(): 정수 데이터를 입력받는다.
 	       nextDouble(): 실수 데이터를 입력받는다. 
-	     */
+	       */
+	    
 		
 	    System.out.print("이름을 입력하세요: ");
 	    String name = sc.next();
