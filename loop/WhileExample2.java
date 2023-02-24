@@ -41,7 +41,7 @@ public class WhileExample2 {
 		/*
 		int c = 4;
 		while(c <= 100) {
-			if( c%4==0) {
+			if(c%4 == 0) {
 			  if(i % 8 != 0) {
 			   System.out.print(i + "  ");
 			   }
