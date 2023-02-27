@@ -34,21 +34,7 @@ public class BreakExample1 {
 				System.out.println(i + "-" + j);
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 	}
 
 }

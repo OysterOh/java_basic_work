@@ -35,9 +35,7 @@ public class ArrayInsert {
 				System.out.println("입력을 종료합니다.");
 				break;
 			}
-
 			names[i] = name;
-
 		}
 		System.out.println("--------------");
 		System.out.println("입력받은 이름:");
@@ -47,8 +45,6 @@ public class ArrayInsert {
 		}
 
 		sc.close();
-
-
 
 	}
 

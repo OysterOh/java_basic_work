@@ -50,6 +50,7 @@ public class ArrayModify {
 				System.out.println("탐색 완료");
 				System.out.println("인덱스: " + i + "번");
 				flag = true;
+				break;
 				}
 		}
 		

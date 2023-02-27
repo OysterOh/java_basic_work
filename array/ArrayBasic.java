@@ -28,7 +28,7 @@ public class ArrayBasic {
 		arr[1] = 88;
 		arr[2] = arr[0];
 		arr[3] = (int) 3.14;  //int로 선언하였기에 double은 못들어감 동종모음
-//		arr[4] = "들어갈까요"; (x)
+//		arr[4] = "들어갈까요"; (X)
 		arr[4] = 100;
 //		arr[5] = 77; (X) index 범위를 초과
 	
@@ -75,7 +75,7 @@ public class ArrayBasic {
 		String[] names = {"홍길동", "김철수", "박영희"};
 //		names = {"홍길동", "김철수", "박영희", "이뽀삐"};
         names = new String[]{"홍길동", "김철수", "박영희", "이뽀삐"};
-		
+		System.out.println(Arrays.toString(names));
 		
 	}
 

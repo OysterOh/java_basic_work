@@ -39,8 +39,20 @@ public class ArrayInsertQuiz {
 			if(name.equals("배불러")) {
 				System.out.println("입력을 종료합니다.");
 				break;
-			} 
+			}
+			
+			int j;
+			for(j =0; j <names.length; j++) {
+				if(name.equals(names[j])) {
+					System.out.println("이미 존재하는 음식입니다.");
+					i--;
+				 break;
+				}
+			}
+		if(j == names.length) {
 			names[i] = name;
+		}
+			
 		}
 
 		System.out.println("----------");
@@ -50,11 +62,13 @@ public class ArrayInsertQuiz {
 			System.out.print(f + " ");
 
 		}
-		for(int a=0; a < names.length; a++) {
-			if(a > names.length) {
-				System.out.print("이미 존재하는 음식입니다.");
-			} break;
-		}
+	
+		
+//		for(int a=0; a < names.length; a++) {
+//			if(a > names.length) {
+//				System.out.print("이미 존재하는 음식입니다.");
+//			} break;
+//		}
 
 		sc.close();
 
