@@ -33,7 +33,7 @@ public class EmployeeManager {
 			String[] person;
 			
 			
-			if(menu ==1) {
+			if(menu == 1) {
 				//사원 정보 4가지를 입력받아 각 배열에 저장하는 코드를 작성.
 				//사번은 중복되면 안됩니다.
 				//(무한루프를 구현해서 사번중복이 발생하면 다시 입력받기.)
