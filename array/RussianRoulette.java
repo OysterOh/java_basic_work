@@ -28,6 +28,7 @@ public class RussianRoulette {
 
 		if(playerNum < 2 || playerNum > 4) {
 			System.out.println("게임 인원이 올바르지 않습니다. 종료합니다.");
+			sc.close();
 			return; //main 함수 종료
 		}
 
@@ -36,7 +37,8 @@ public class RussianRoulette {
 
 		//boolean[]bulletPos = new boolean[6]
 		//플레이어 이름 등록하고
-
+		//배열을 하나 생성해서 플레이어들을 배치하시면 됩니다.
+		//배열의 크기는 게임 참가자의 명수와 동일합니다.
 		System.out.println("\n플레이어 이름을 등록하세요: ");
 		String[]players = new String[playerNum];
 		for(int i=0; i<players.length; i++) {
@@ -117,7 +119,7 @@ public class RussianRoulette {
 
 				String[] temp = new String[players.length-1];
 
-				for(int j =0; j<temp.length-1; j++) {
+				for(int j =0; j<temp.length; j++) {
 					temp[j] = players[j];
 				}
 				players = temp; temp = null;

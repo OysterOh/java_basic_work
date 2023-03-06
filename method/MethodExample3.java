@@ -31,7 +31,7 @@ public class MethodExample3 {
 	
 	static int add(int n1, int n2) {
 		return n1 + n2;
-//		System.out.println(); (x)
+//		System.out.println(그대여 나와같다면); (x)
 	}
 	
 	static int[] operateTotal(int n1, int n2){
