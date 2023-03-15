@@ -1,4 +1,4 @@
-package basic;
+package basic.chap1;
 
 import java.util.Scanner;
 
@@ -48,6 +48,23 @@ public class Solution3 {
 			scores[i] = sc.nextInt();
 		}
 		
+		////////////////////////////////////////////////
+		
+		System.out.println("점수\t\t순위");
+		System.out.println("--------------------");
+		for(int s : scores) {
+			int rank = 1;
+			for(int i=0; i<scores.length; i++) {
+				if(s < scores[i]) {
+					rank++;
+				}
+			}
+			System.out.printf("%d\t\t%d\n", s, rank);
+		}
+		
+		
+		//////////////////////////////////////////////////
+		
 		for(int i=0; i<scores.length; i++) {
 			ranks[i] = 1;
 			
@@ -62,11 +79,9 @@ public class Solution3 {
 		for(int i=0; i<scores.length; i++) {
 			System.out.println(scores[i]+"        "+ ranks[i]);
 			
-		}
-		
+		}	
 		sc.close();
-		
-		
+	
 	}
 
 }

@@ -1,4 +1,4 @@
-package basic;
+package basic.chap1;
 
 import java.util.Scanner;
 
@@ -24,6 +24,24 @@ public class Solution4 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		////////////////////////////////////////////////
+		
+		boolean[] isSubmit = new boolean[10];
+		
+		for(int i=1; i<=8; i++) {
+			System.out.print("제출한 학생의 번호: ");
+			isSubmit[sc.nextInt()-1] = true;
+		}
+		
+		System.out.println("숙제를 안 낸 학생: ");
+		for(int j=0; j<isSubmit.length; j++) {
+			if(!isSubmit[j]) {
+				System.out.println(j+1);
+			}
+		}
+		
+		////////////////////////////////////////////////
+
 		int []nums = new int[8];
 		boolean []flag = new boolean[10];
 		
